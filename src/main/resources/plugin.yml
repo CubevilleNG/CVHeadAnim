@@ -1,0 +1,11 @@
+name: CVHeadAnim
+main: org.cubeville.cvheadanim.CVHeadAnim
+author: FrediW
+version: 1.18
+api-version: 1.18
+
+depend: [CVLoadouts]
+
+commands:
+  headanim:
+    permission: cvheadamin.admin
