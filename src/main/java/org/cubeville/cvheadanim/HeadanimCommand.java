@@ -8,6 +8,7 @@ import java.util.Optional;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.command.CommandSender;
+import org.bukkit.craftbukkit.v1_20_R1.CraftWorld;
 import org.bukkit.entity.ArmorStand;
 import org.bukkit.event.entity.CreatureSpawnEvent;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -28,8 +29,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.server.level.WorldServer;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityTypes;
-
-import org.bukkit.craftbukkit.v1_18_R2.CraftWorld;
 
 @SuppressWarnings("unchecked")
 public class HeadanimCommand extends BaseCommand
